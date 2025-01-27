@@ -1,30 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import CountApp from './component/countApp'
+import ButtonComponent from './component/ButtonComponent'
+import CheckBoxGun from './component/CheckBoxGun';
 
 function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-
-      <CountApp></CountApp>
-      <CountApp></CountApp>
-
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    < div style={{ textAlign: 'center' , marginTop: '50 px' }} >
+      <h1 > VitePWA + MUI App </ h1 >
+      <ButtonComponent /><br></br>
+      <CheckBoxGun />
+    </ div >
+  );
 }
 
 export default App
