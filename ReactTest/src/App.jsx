@@ -1,15 +1,18 @@
 import './App.css'
-import ButtonComponent from './component/ButtonComponent'
-import CheckBoxGun from './component/CheckBoxGun';
+import Header from './Header'
+import StudentList from './StudentList'
 
 function App() {
+
   return (
-    < div style={{ textAlign: 'center' , marginTop: '50 px' }} >
-      <h1 > VitePWA + MUI App </ h1 >
-      <ButtonComponent /><br></br>
-      <CheckBoxGun />
-    </ div >
-  );
+    <>
+    <div>
+      <Header title="Student Dashboard"></Header>
+      <StudentList></StudentList>
+    </div>
+      
+    </>
+  )
 }
 
 export default App
