@@ -4,6 +4,7 @@ import './component/Counter.jsx'
 import { Counter } from './component/Counter.jsx'
 import { Time } from './component/Time.jsx'
 import { FetchUser } from './component/FetchUser.jsx'
+import { Interval } from './component/interval.jsx'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Counter />
       <Time />
       <FetchUser />
+      <Interval />
 
       <PWABadge />
     </>
